@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+   <h1>Aplication form</h1>
+   <form action="success.html" method="post">
+   <fieldset>
+		<legend>Fill in</legend>
+   <fieldset width=100px>
+            <legend>Registration to out site</legend>
+            
+                <p>
+                <label for="E-mail:">E-mail::*</label>
+                <input  name="E-mail:" required="required" type="email" placeholder="Example: Krystyna_Bilokura@gmail.com"/>
+                </p>   
+                   <p>
+                <label for="password"  >Password:*</label>
+       		    <input type="password" id="pass" placeholder="Easy to remember-hard to guess" /> 
+                </p>
+                <p>
+                <label for="password"  >Repeat password<br>Should be the same with 'password' field, used to avoid mistypes:*</label>
+                <input type="password" id="pass" /> 
+                </p>
+            
+        </fieldset>
+    <fieldset width=100px>
+        <legend>Personal data</legend>
+        
+        <p>
+                <label for="name">Name:* </label>
+                <input id="name" name="username" required="required" type="text" placeholder="Example: Krystyna"/>
+        </p>
+        <p>
+                <label for="surname">Surname:* </label>
+                <input  name="surname" required="required" type="text" maxlegth="20" placeholder="Example: Bilokura"/>
+        </p>
+        <p>
+                <label for="E-mail:">Your E-mail::*</label>
+                <input  name="E-mail:" required="required" type="email" placeholder="Example: Krystyna_Bilokura@gmail.com"/>
+        </p>
+        <p>
+                <label for="phone"  >Phone number:*</label>
+       		    <input type="tel" placeholder="(0**)-**-**-***" /> 
+        </p>
+        <p>Birth:</p> 
+              <input type="date" name="calendar">
+               
+        <p>
+				<label>Age:*</label>
+                    <select class="date">
+                    <option value="0">Choose
+                    </option>
+                    <option value="1">4-18 y.o.
+                    </option>
+                    <option value="2">18-25 y.o.
+                    </option>
+                    <option value="3">25-35 y.o.
+                    </option>
+                    <option value="4">35+ y.o.
+                    </option>
+                    </select>
+        </p>
+            <p>Status:*<br></p>
+   		    <input type="radio" name="status" value="Male">Male<br>
+   		    <input type="radio" name="status" value="Female">Female<br>
+     
+        </fieldset>
+        <fieldset width=100px>
+            <legend>Educational Summary and Centifications</legend>
+            
+            <p>
+            <label>University:</label>
+                    <select class="date">
+                    <option value="0">None
+                    </option>
+                    <option value="1">Lviv Politechnic National University
+                    </option>
+                    <option value="2">Ivan Franko National University of Lviv
+                    </option>
+                    <option value="3">Ukrainian National Forestry University
+                    </option>
+                    <option value="4">Ukrainian Catholic University
+                    </option>
+                    <option value="4">Else
+                    </option>
+                    </select>
+            </p>
+            <p>Certifications: </p>
+            <p><textarea rows="3" cols="30" placeholder="Message"></textarea></p>
+        
+        </fieldset>
+        <fieldset width=100px>
+            <legend>Technical Skills</legend>
+            <form name="Technical_Skills" method="post" >
+                <p>Programing languages: </p>
+		        <p>
+                    <input type="checkbox" name="checkbox" />
+                    <label for="checkbox">Java</label>
+                </p>
+		        <p>
+                    <input type="checkbox" name="checkbox" />
+                    <label for="checkbox">C#</label>
+                </p>
+		        <p>
+                    <input type="checkbox" name="checkbox" />
+                    <label for="checkbox">JavaScript</label>
+                </p>
+            </form>
+        </fieldset>
+        <fieldset width=100px>
+            <legend>Languages</legend>
+            
+            <p>Languages: </p>
+                <p>
+                    <input type="checkbox" name="checkbox" />
+                    <label for="checkbox">English</label>
+                </p>
+		        <p>
+                    <input type="checkbox" name="checkbox" />
+                    <label for="checkbox">German</label>
+                </p>
+		        <p>
+                    <input type="checkbox" name="checkbox" />
+                    <label for="checkbox">Russian</label>
+                </p>
+		        <p>
+                    <input type="checkbox" name="checkbox"  />
+                    <label for="checkbox">Else</label>
+                </p>
+            
+            
+            
+        
+        </fieldset>
+        <fieldset width=100px>
+            <legend>Pesonal Details</legend>
+            
+                <p>Personal details: </p>
+                <p><textarea rows="3" cols="40" placeholder="Message"></textarea></p>
+        
+        </fieldset>
+       <fieldset width=100px>
+            <legend>Add files</legend>
+           
+                <p>Download your scanned documents: </p>
+           <p><input type="file" name="file" >    
+         
+        </fieldset>
+        <p><input type="submit" value="Submit"><input type="reset" value="Reset" ></p>
+       </fieldset>
+    </form>
+</body>
+</html>
